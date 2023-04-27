@@ -1,0 +1,116 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.7.7",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "balloon"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material #2945",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "ballon",
+      "uri": "ballon.png"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 736,
+      "max": [0.4071089029312134, 0.5614683628082275, 0.40710899233818054],
+      "min": [-0.40710902214050293, -0.5614681243896484, -0.4071090519428253],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 736,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 736,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 2430,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 8832,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 8832,
+      "byteOffset": 8832
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5888,
+      "byteOffset": 17664
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4860,
+      "byteOffset": 23552
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 28412,
+      "uri": "ballon.bin"
+    }
+  ]
+}

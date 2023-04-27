@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.7.7",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "watermelon",
+      "scale": [0.02539999969303608, 0.02539999969303608, 0.02539999969303608]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material #2730",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0.0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh.001",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "watermelon",
+      "uri": "watermelon.png"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 28,
+      "max": [23.01663589477539, 18.74667739868164, 3.6256864070892334],
+      "min": [-23.016633987426758, -18.74667739868164, -3.625683546066284],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 28,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 28,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 72,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 336,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 336,
+      "byteOffset": 336
+    },
+    {
+      "buffer": 0,
+      "byteLength": 224,
+      "byteOffset": 672
+    },
+    {
+      "buffer": 0,
+      "byteLength": 144,
+      "byteOffset": 896
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 1040,
+      "uri": "watermelon.bin"
+    }
+  ]
+}

@@ -1,0 +1,318 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.7.7",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [3]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "Beak"
+    },
+    {
+      "mesh": 1,
+      "name": "Eyes"
+    },
+    {
+      "mesh": 2,
+      "name": "Legs"
+    },
+    {
+      "children": [0, 1, 2],
+      "mesh": 3,
+      "name": "Body",
+      "scale": [0.699999988079071, 0.699999988079071, 0.699999988079071]
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Beak",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8000000715255737, 0.4193551242351532, 0.10644920915365219, 1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Eyes",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [0, 0, 0, 1],
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    },
+    {
+      "doubleSided": true,
+      "name": "Body",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.8000000715255737, 0.6988043189048767, 0.18429288268089294, 1
+        ],
+        "metallicFactor": 0,
+        "roughnessFactor": 0.800000011920929
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Sphere.006",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 4,
+            "NORMAL": 5,
+            "TEXCOORD_0": 6
+          },
+          "indices": 7,
+          "material": 1
+        }
+      ]
+    },
+    {
+      "name": "Cube.012",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 8,
+            "NORMAL": 9,
+            "TEXCOORD_0": 10
+          },
+          "indices": 11,
+          "material": 0
+        }
+      ]
+    },
+    {
+      "name": "Cube.011",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 12,
+            "NORMAL": 13,
+            "TEXCOORD_0": 14
+          },
+          "indices": 15,
+          "material": 2
+        }
+      ]
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 63,
+      "max": [0.1508074551820755, 0.17519108951091766, 0.8926198482513428],
+      "min": [-0.1508074253797531, 0.061855498701334, 0.6900709867477417],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 63,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 63,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 240,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 4,
+      "componentType": 5126,
+      "count": 302,
+      "max": [0.29968810081481934, 0.24246124923229218, 0.7235068678855896],
+      "min": [-0.29968810081481934, 0.18568088114261627, 0.6667265295982361],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 5,
+      "componentType": 5126,
+      "count": 302,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 6,
+      "componentType": 5126,
+      "count": 302,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 7,
+      "componentType": 5123,
+      "count": 1344,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 8,
+      "componentType": 5126,
+      "count": 186,
+      "max": [0.7096718549728394, -0.23966722190380096, 0.7540712952613831],
+      "min": [-0.7096718549728394, -0.6288719773292542, 0.49827393889427185],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 9,
+      "componentType": 5126,
+      "count": 186,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 10,
+      "componentType": 5126,
+      "count": 186,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 11,
+      "componentType": 5123,
+      "count": 768,
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 12,
+      "componentType": 5126,
+      "count": 494,
+      "max": [0.9559877514839172, 0.902864396572113, 0.830741822719574],
+      "min": [-0.9559877514839172, -0.7304642200469971, -0.830741822719574],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 13,
+      "componentType": 5126,
+      "count": 494,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 14,
+      "componentType": 5126,
+      "count": 494,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 15,
+      "componentType": 5123,
+      "count": 2784,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 756,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 756,
+      "byteOffset": 756
+    },
+    {
+      "buffer": 0,
+      "byteLength": 504,
+      "byteOffset": 1512
+    },
+    {
+      "buffer": 0,
+      "byteLength": 480,
+      "byteOffset": 2016
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3624,
+      "byteOffset": 2496
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3624,
+      "byteOffset": 6120
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2416,
+      "byteOffset": 9744
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2688,
+      "byteOffset": 12160
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2232,
+      "byteOffset": 14848
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2232,
+      "byteOffset": 17080
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1488,
+      "byteOffset": 19312
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1536,
+      "byteOffset": 20800
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5928,
+      "byteOffset": 22336
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5928,
+      "byteOffset": 28264
+    },
+    {
+      "buffer": 0,
+      "byteLength": 3952,
+      "byteOffset": 34192
+    },
+    {
+      "buffer": 0,
+      "byteLength": 5568,
+      "byteOffset": 38144
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 43712,
+      "uri": "chick.bin"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.7.7",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "cake"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material #2393",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "cake",
+      "uri": "cake.png"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 374,
+      "max": [0.3986319303512573, 0.42565497756004333, 0.30276164412498474],
+      "min": [-0.39863109588623047, -0.42565497756004333, -0.3027612566947937],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 374,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 374,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 1008,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 4488,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 4488,
+      "byteOffset": 4488
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2992,
+      "byteOffset": 8976
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2016,
+      "byteOffset": 11968
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 13984,
+      "uri": "cake.bin"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "asset": {
+    "generator": "Khronos glTF Blender I/O v1.7.7",
+    "version": "2.0"
+  },
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "Scene",
+      "nodes": [0]
+    }
+  ],
+  "nodes": [
+    {
+      "mesh": 0,
+      "name": "guitar"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "name": "Material #2530",
+      "pbrMetallicRoughness": {
+        "baseColorTexture": {
+          "index": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "name": "Mesh.003",
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "material": 0
+        }
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    }
+  ],
+  "images": [
+    {
+      "mimeType": "image/png",
+      "name": "guitar",
+      "uri": "guitar.png"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 0,
+      "componentType": 5126,
+      "count": 1597,
+      "max": [0.6848748922348022, 0.684874951839447, 0.1347273737192154],
+      "min": [-0.7113873958587646, -0.711387038230896, -0.12058988958597183],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 1597,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 1597,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5123,
+      "count": 3882,
+      "type": "SCALAR"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 19164,
+      "byteOffset": 0
+    },
+    {
+      "buffer": 0,
+      "byteLength": 19164,
+      "byteOffset": 19164
+    },
+    {
+      "buffer": 0,
+      "byteLength": 12776,
+      "byteOffset": 38328
+    },
+    {
+      "buffer": 0,
+      "byteLength": 7764,
+      "byteOffset": 51104
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 58868,
+      "uri": "guitar.bin"
+    }
+  ]
+}
