@@ -1,0 +1,205 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.7",
+        "version" : "2.0"
+    },
+    "extensionsUsed" : [
+        "KHR_materials_unlit"
+    ],
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                4
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "SkCatGl_SkCatGl_0"
+        },
+        {
+            "children" : [
+                0
+            ],
+            "name" : "SkCatGl",
+            "rotation" : [
+                -0.6887733936309814,
+                -0.15997296571731567,
+                -0.15997299551963806,
+                0.6887732744216919
+            ],
+            "scale" : [
+                100.00000762939453,
+                100.00000762939453,
+                100
+            ],
+            "translation" : [
+                -0.01983068697154522,
+                0,
+                0.06446919590234756
+            ]
+        },
+        {
+            "children" : [
+                1
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "a37ad86baa234b868cf59743009c987f.fbx",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ],
+            "scale" : [
+                0.009999999776482582,
+                0.009999999776482582,
+                0.009999999776482582
+            ]
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                -0.4482003450393677,
+                -0.5469154119491577,
+                -0.5469154119491577,
+                0.4482003450393677
+            ],
+            "scale" : [
+                0.25,
+                0.25,
+                0.25
+            ],
+            "translation" : [
+                0,
+                -0.8299999833106995,
+                0
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "extensions" : {
+                "KHR_materials_unlit" : {}
+            },
+            "name" : "SkCatGl",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.9
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "SkCatGl_SkCatGl_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "SkCatGl_baseColor",
+            "uri" : "SkCatGl_baseColor.jpg"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 59055,
+            "max" : [
+                2.462421178817749,
+                2.46401309967041,
+                6.369846343994141
+            ],
+            "min" : [
+                -2.4653947353363037,
+                -2.463803768157959,
+                1.0245342254638672
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 59055,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 59055,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 155328,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 708660,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 708660,
+            "byteOffset" : 708660
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 472440,
+            "byteOffset" : 1417320
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 310656,
+            "byteOffset" : 1889760
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 2200416,
+            "uri" : "cat cup.bin"
+        }
+    ]
+}
