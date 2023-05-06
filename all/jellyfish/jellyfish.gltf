@@ -1,0 +1,288 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.7.7",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                5
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "Jelly Fish_02 - Default_0"
+        },
+        {
+            "mesh" : 1,
+            "name" : "Jelly Fish_03 - Default_0"
+        },
+        {
+            "children" : [
+                0,
+                1
+            ],
+            "name" : "Jelly Fish",
+            "rotation" : [
+                -0.6963642835617065,
+                0.12278779596090317,
+                -0.12278779596090317,
+                0.6963642835617065
+            ],
+            "scale" : [
+                -0.9999999403953552,
+                -1,
+                -0.9999999403953552
+            ],
+            "translation" : [
+                24.456945419311523,
+                79.1532974243164,
+                0.22056126594543457
+            ]
+        },
+        {
+            "children" : [
+                2
+            ],
+            "name" : "RootNode"
+        },
+        {
+            "children" : [
+                3
+            ],
+            "name" : "Jelly Fish.FBX",
+            "rotation" : [
+                0.7071068286895752,
+                0,
+                0,
+                0.7071068286895752
+            ]
+        },
+        {
+            "children" : [
+                4
+            ],
+            "name" : "Sketchfab_model",
+            "rotation" : [
+                0,
+                0.7071068286895752,
+                -0.7071068286895752,
+                0
+            ],
+            "scale" : [
+                0.007000000216066837,
+                0.007000000216066837,
+                0.007000000216066837
+            ],
+            "translation" : [
+                0.29999998211860657,
+                0.7999999523162842,
+                -0.09999999403953552
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "name" : "02_-_Default",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0
+                },
+                "metallicFactor" : 0.33000001311302185,
+                "roughnessFactor" : 0.20000000298023224
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "03_-_Default",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1
+                },
+                "metallicFactor" : 0.33000001311302185,
+                "roughnessFactor" : 0.20000000298023224
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Jelly Fish_02 - Default_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        },
+        {
+            "name" : "Jelly Fish_03 - Default_0",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "sampler" : 0,
+            "source" : 0
+        },
+        {
+            "sampler" : 0,
+            "source" : 1
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "02_-_Default_baseColor",
+            "uri" : "02_-_Default_baseColor.png"
+        },
+        {
+            "mimeType" : "image/png",
+            "name" : "03_-_Default_baseColor",
+            "uri" : "03_-_Default_baseColor.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 820,
+            "max" : [
+                91.80343627929688,
+                88.79830169677734,
+                87.98497772216797
+            ],
+            "min" : [
+                -91.8034439086914,
+                -88.79827880859375,
+                -92.57842254638672
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 820,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 820,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 4608,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 1144,
+            "max" : [
+                76.12458801269531,
+                48.41949462890625,
+                -84.92853546142578
+            ],
+            "min" : [
+                -73.28559875488281,
+                -48.41947937011719,
+                -228.55572509765625
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 1144,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 1144,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 5724,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 9840,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9840,
+            "byteOffset" : 9840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6560,
+            "byteOffset" : 19680
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9216,
+            "byteOffset" : 26240
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13728,
+            "byteOffset" : 35456
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 13728,
+            "byteOffset" : 49184
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9152,
+            "byteOffset" : 62912
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 11448,
+            "byteOffset" : 72064
+        }
+    ],
+    "samplers" : [
+        {
+            "magFilter" : 9729,
+            "minFilter" : 9987
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 83512,
+            "uri" : "jellyfish.bin"
+        }
+    ]
+}
